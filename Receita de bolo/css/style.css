@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em;
+    color:#333;
+}
+
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: rgb(49, 49, 49);
+}
+
+.logo a{ 
+    width: 149px;
+    height: 71px;
+    float: left;
+    background: url(../img/Logo.png) no-repeat;
+    font-size: 0;
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(32,32,32);
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    background-color: rgb(32, 32, 32);
+    padding: 18px 8%;
+}
+
+.menu li{ 
+    float: left;
+}
+
+.menu li a{
+    color: white;
+    margin-right: 25px;
+}
+
+.icones-redes-sociais{ 
+    float: right;
+}
+
+.icones-redes-sociais a{
+    color: white;
+    float: left;
+    margin-left: 15px;
+}
+
+.btn-facebook:hover{
+    color: blue;
+}
+
+.btn-instagram:hover{
+    color: violet;
+}
+
+.btn-google:hover{
+    color: red;
+}
+
+.corpo{
+    width: 100%;
+    float: left;
+    padding: 30px 8%;
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2{
+    margin-bottom: 15px;
+}
+
+.sobre img{
+    width: 50%;
+    float: left;
+    margin: 0 15px 15px 0;;
+}
+
+.sobre p{
+    text-align: justify;
+}
+
+
+.Ingredientes{
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.Ingredientes ol{
+    padding: 20px;
+}
+
+.Ingredientes ol li{
+    padding: 3px;
+}
+
+.Ingredientes a{
+    color: rgb(32,32,32);
+    text-decoration: none;
+}
+
+.Ingredientes a:hover{
+    color: gray;
+}
+
+.Ingredientes ol li:hover{
+    color: gray;
+}
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: rgb(30, 30, 30);
+    padding: 20px 8%;
+}
+
+.rodape p{
+    color: white;
+    float: center;
+    text-align: center;
+    margin: 20px 0;
+}
